@@ -1,0 +1,69 @@
+{
+    "contacts": [
+        {
+            "id":1,
+            "name": "Sevara Meliboyeva",
+            "email": [
+                {
+                    "id": 128,
+                    "type": "personal",
+                    "email": "sevarameliboyeva@gmail.com"
+                }
+            ],
+            "phone": [
+                {
+                    "id": 12,
+                    "type": "home",
+                    "number": "+998934565456"
+                },
+                {
+                    "id": 120,
+                    "type": "work",
+                    "number": "+998945678686"
+                }
+            ],
+            "birthday": "2000-03-12",
+            "groups":[123, 1234],
+            "is_fv": true,
+            "is_fam": false,
+            "address": "Uzbekistan, Andijan, Shaxrihon",
+            "company": "V12_Engineering",
+            "photo": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
+        },
+        {
+            "id":2,
+            "name": "Fotima Aliyeva",
+            "email": [
+                {
+                    "id": 1222,
+                    "type": "home",
+                    "email": "aliyeva@gmail.com"
+                }
+            ],
+            "phone": [
+                {
+                    "id": 1221,
+                    "type": "home",
+                    "number": "+998934565456"
+                }
+            ],
+            "birthday": "1998-03-12",
+            "groups":[123],
+            "is_fv": true,
+            "is_fam": true,
+            "address": "Uzbekistan, Andijan, Qo'shtepa",
+            "company": "Marketing",
+            "photo": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
+        }
+    ],
+    "groups": [
+        {
+            "id": 123,
+            "title": "imported 20/10/2020"
+        },
+        {
+            "id": 1234,
+            "title": "imported from mobile phone"
+        }
+    ]
+}
