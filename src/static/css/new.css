@@ -1,0 +1,70 @@
+
+.image-upload{
+    height: 150px;
+    width: 150px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.image-upload-input{
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.userImage{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+#plus-icon{
+    position: absolute;
+    color: white;
+    font-size: 1.55rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: rgb(136, 133, 133);
+    display: grid;
+    place-items: center;
+}
+
+.group-list{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.25);
+    
+}
+
+.show {
+    width: 230px;
+    height: auto;
+    position: absolute;
+    top: 60%;
+    left: 55%;
+}
+
+.rotate-icon {
+    height: 2rem;
+    width: 2rem;
+    font-size: 1.25rem;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transform: rotate(-45deg);
+}
+
+.save-btn{
+    width: 40%;
+}
