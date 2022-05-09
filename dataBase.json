@@ -59,27 +59,6 @@
       "address": "Uzbekistan, Andijan, Qo'shtepa",
       "company": "Marketing",
       "photo": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
-    },
-    {
-      "id": 1651869221927,
-      "name": "Nurjahon Alisherova",
-      "email": [
-        {
-          "id": 1651869221937,
-          "type": "personal",
-          "mail": "nurjahonalisherova@gmail.com"
-        }
-      ],
-      "phone": [
-        {
-          "id": 1651869222027,
-          "type": "home",
-          "number": "93 413 15 14"
-        }
-      ],
-      "company": "Siemens",
-      "birthday": "2022-05-13",
-      "address": "Gulchinor"
     }
   ],
   "groups": [
@@ -90,6 +69,36 @@
     {
       "id": 1234,
       "title": "imported from mobile phone"
+    }
+  ],
+  "contact-types": [
+    {
+      "id": 1,
+      "title": "Personal"
+    },
+    {
+      "id": 2,
+      "title": "Work"
+    },
+    {
+      "id": 3,
+      "title": "Home"
+    },
+    {
+      "id": 4,
+      "title": "Mobile"
+    },
+    {
+      "id": 5,
+      "title": "Fax"
+    },
+    {
+      "id": 6,
+      "title": "Pager"
+    },
+    {
+      "id": 7,
+      "title": "Other"
     }
   ]
 }

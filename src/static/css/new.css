@@ -65,6 +65,20 @@
     transform: rotate(-45deg);
 }
 
+.rotate {
+    transform: rotate(-45deg);
+}
+
 .save-btn{
     width: 40%;
+}
+
+.hover-li:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+.include {
+    background-color: rgb(224, 246, 255) !important;
+    color: royalblue !important;
 }
